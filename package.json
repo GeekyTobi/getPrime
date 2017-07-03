@@ -1,0 +1,21 @@
+{
+  "name": "tddsample",
+  "version": "1.0.0",
+  "description": "Simple TDD Demo",
+  "main": "src/getprime.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "TDD",
+    "javascript"
+  ],
+  "author": "Tobi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2"
+  }
+}
